@@ -109,6 +109,10 @@ html, body {
     color: #FFFFFF!important;
     background: #FA5E01;
 }
+.top{
+    margin-top: -100px;
+    z-index: -1;
+}
 .apply-card{
     background: #FA5E01;
 }
