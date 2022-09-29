@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+     background: #FFFFFF;
+    
+
+}
+html, body {
+    overflow-x: hidden;
+  }
+#banner{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(150, 138, 133, 0.7), rgba(52, 42, 37, 0.7)), url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    top: 0%;
+}
+.banner-text{
+    color: #FFFFFF;
+
+}
+
+.btn-banner{
+    background: #FA5E01!important;
+    border: 2px solid #FA5E01!important;
+    color: white!important;
+}
+.btn-banner:hover{
+    border: 2px solid #FA5E01;
+    background: #FFFFFF!important;
+    color:#FA5E01 !important;
+}
+ .play-btn {
+    width: 94px;
+    height: 94px;
+    margin: 0 auto;
+    background:  #FA5E01;
+    border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  
+ .play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+ .play-btn::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate-btn 3s;
+    animation: pulsate-btn 3s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 153, 97, 0.7);
+    top: -15%;
+    left: -15%;
+    background:  #FA5E01;
+}
+ 
+    .s-card :hover{
+        background:  #FA5E01;
+        color:  #FFFFFF!important;
+    }
+    .s-card:hover .icon{
+        color: #FFFFFF;
+    }
+    .icon{
+        color:   #FA5E01;
+    }
+    
+    hr{
+        color: #FA5E01!important;
+        width: 150px;
+        border: 3px solid #FA5E01;
+        bottom: 30px;
+    }
+.btn-about{
+    border: 2px solid #FA5E01!important;
+    color: #FA5E01!important;
+}
+.btn-about:hover{
+    color: #FFFFFF!important;
+    background: #FA5E01;
+}
+.apply-card{
+    background: #FA5E01;
+}
+.btn-apply{
+    border: 1px solid black;
+    background: #FFFFFF!important;
+}
+.btn-apply:hover{
+    background: #FA5E01!important;
+    color: #FFFFFF!important;
+}
+
+    .gallery-item .content-overlay {
+        background: rgba(142, 139, 140, 0.685);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        
+        
+       
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+    }
+    
+    .gallery-item:hover .content-overlay {
+        opacity: 1;
+    }
+    .content-details {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 47%;
+        left: 47%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    
+    .gallery-item:hover .content-details {
+        top: 87%;
+        left: 47%;
+        opacity: 1;
+    }
+    .btn-teacher{
+        background-color:  #FFF9F5;
+        color: #FA5E01!important;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    
+    }
+    #footer{
+        background-color: #FA5E01;
+        width: 100%;
+        color: #FFFFFF;
+
+    }
+    
