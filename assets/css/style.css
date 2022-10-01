@@ -24,10 +24,6 @@ html, body {
     min-height: 3;
 }
 
-.fixed.scrolled {
-    background-image: linear-gradient(rgb(216, 14, 132)) !important;
-    transition: background-color 200ms linear;
-}
 
 
 
