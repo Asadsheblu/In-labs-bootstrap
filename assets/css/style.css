@@ -8,6 +8,63 @@ body{
 html, body {
     overflow-x: hidden;
   }
+  .navbar{
+    height: 100px!important;
+  }
+  .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 2vh;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #f2f2ee;
+    color: yellow;
+    color: var(--color-w);
+    z-index: 99;
+    margin-top: 0;
+    /* max-height: 5rem; */
+    min-height: 3;
+}
+
+.fixed.scrolled {
+    background-image: linear-gradient(rgb(216, 14, 132)) !important;
+    transition: background-color 200ms linear;
+}
+
+
+
+.navbar-toggler-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    color: lightcyan;
+} 
+
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: bold;
+    color:#FA5E01!important;
+    border-bottom: 1px solid #FA5E01;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+   color:#FA5E01!important;
+   border-bottom: 1px solid #FA5E01;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    /* background-color: #0d6efd; */
+}
+
+
+
+  .login{
+    background-image: url("../img/Rectangle\ 6.png");
+    height: 166px;
+    width: 110px;
+  }
+  /* navbar */
+  /*Banner */
 #banner{
     min-height: 100vh;
     width: 100%;
@@ -19,6 +76,9 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     top: 0%;
+}
+.banner-top{
+    padding-top: 150px;
 }
 .banner-text{
     color: #FFFFFF;
@@ -83,7 +143,7 @@ html, body {
     left: -15%;
     background:  #FA5E01;
 }
- 
+ /*service card*/
     .s-card :hover{
         background:  #FA5E01;
         color:  #FFFFFF!important;
@@ -101,6 +161,7 @@ html, body {
         border: 3px solid #FA5E01;
         bottom: 30px;
     }
+    /*About */
 .btn-about{
     border: 2px solid #FA5E01!important;
     color: #FA5E01!important;
@@ -113,6 +174,7 @@ html, body {
     margin-top: -100px;
     z-index: -1;
 }
+/*apply section*/
 .apply-card{
     background: #FA5E01;
 }
@@ -124,7 +186,7 @@ html, body {
     background: #FA5E01!important;
     color: #FFFFFF!important;
 }
-
+/*Teacher */
     .gallery-item .content-overlay {
         background: rgba(142, 139, 140, 0.685);
         position: absolute;
@@ -173,6 +235,55 @@ html, body {
         
     
     }
+    .carousel-control-prev-icon{
+        margin-top: -600px;
+        margin-right: -1790px;
+        height: 50px;
+        width: 50px;
+        background-image: url('../img/prev.png')!important;
+    }
+    .carousel-control-next-icon{
+        margin-top: -600px;
+        background-image: url('../img/next.png')!important;
+    }
+    @media only screen and (min-width: 1800px) {
+        .carousel-control-prev-icon {
+            margin-top: -600px;
+            margin-right: -1990px;
+            background-image: url('../img/prev.png')!important;
+            
+        }
+        .carousel-control-next-icon {
+            margin-top: -600px;
+            background-image: url('../img/next.png')!important;
+        }    
+            
+        }
+    
+    @media only screen and (max-width: 600px) {
+        .carousel-control-prev-icon {
+           display: none!important;
+        }
+        .carousel-control-next-icon {
+            display: none!important;
+        }
+        .login{
+            display: none;
+        }
+        .navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    font-weight: bold;
+    color:#FA5E01!important;
+    border-bottom: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+   color:#FA5E01!important;
+   border-bottom: none;
+}
+
+}
+        
+        /*Footer*/
     #footer{
         background-color: #FA5E01;
         width: 100%;
