@@ -24,7 +24,7 @@ html, body {
     min-height: 3;
 }
 
-
+  
 
 
 .navbar-toggler-icon {
@@ -179,6 +179,9 @@ html, body {
 .btn-apply:hover{
     background: #FA5E01!important;
     color: #FFFFFF!important;
+}
+#principal{
+    background-color:  #FFF9F5;
 }
 /*Teacher */
     .gallery-item .content-overlay {

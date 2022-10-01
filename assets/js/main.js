@@ -1,4 +1,4 @@
 
-
+//purecounter
 new PureCounter();
 
